@@ -331,6 +331,7 @@ CONFIG_PASSTHROUGH_READWRITE(NSString *, languageOrLocale, LanguageOrLocale)
 CONFIG_PASSTHROUGH_READWRITE(BOOL, useCardIOLogo, UseCardIOLogo)
 CONFIG_PASSTHROUGH_READWRITE(BOOL, hideCardIOLogo, HideCardIOLogo)
 CONFIG_PASSTHROUGH_READWRITE(UIColor *, guideColor, GuideColor)
+CONFIG_PASSTHROUGH_READWRITE(CGFloat, guideBorderWidth, GuideBorderWidth)
 CONFIG_PASSTHROUGH_READWRITE(CGFloat, scannedImageDuration, ScannedImageDuration)
 CONFIG_PASSTHROUGH_READWRITE(BOOL, allowFreelyRotatingCardGuide, AllowFreelyRotatingCardGuide)
 
