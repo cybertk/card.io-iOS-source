@@ -61,6 +61,7 @@
   if(landscape) {
     contents = CGSizeMake(kLandscapeSampleWidth, kLandscapeSampleHeight);
   } else {
+    // Mark: change this?
     contents = CGSizeMake(kPortraitSampleWidth, kPortraitSampleHeight);
   }
   CGRect contentsRect = aspectFit(contents, size);
